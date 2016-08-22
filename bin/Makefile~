@@ -1,0 +1,5 @@
+all: GSServer.java PlayerServer.java
+	javac GSServer.java
+	javac PlayerServer.java
+	java GSServer
+
